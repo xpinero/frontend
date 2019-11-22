@@ -1,0 +1,124 @@
+
+body {  
+    background-size: cover;
+    background-position: fixed;
+    
+}
+header {
+    display: flex;
+    justify-content: stretch;
+    background-color: @dbg;
+    opacity: 75%;
+    border-radius: 10px;
+    border: solid black 1px;
+    flex-direction: column;
+    
+    h1 {
+        margin-left: 4.4em;
+        margin-bottom: .2em;
+        font-weight: 900;
+        
+    }
+    h2 {
+        margin-left: 2em;
+    }
+
+    .nav-container {
+        @media @mobile {
+        flex-direction: column;
+        text-align: center;
+        }
+
+        a {
+            margin: .2em 0;
+        }
+    }
+
+    
+}
+.vision {
+    display: flex;
+    text-align: center;
+    background-color: #1A5763;
+    opacity: 75%;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    h2 {
+        margin-top: .5em;
+    }
+}
+.team {
+    display: flex;
+    text-align: center;
+
+    h2 {
+        background-color: #1A5763;
+    opacity: 75%;
+    border-radius: 10px;
+    width: 25%;
+    margin: auto;
+    }
+    .team-par p {
+        background-color: #1A5763;
+    }
+    .trey {
+        .member-style();
+    }
+    .mason {
+        .member-style();
+    }
+    .robert {
+        .member-style();
+    }
+    .ahmad {
+        .member-style();    
+    }
+    .xaver {
+        .member-style();    
+    }
+    
+    p {
+        background-color: @dbg;
+    opacity: 75%;
+    border-radius: 10px;
+    width: 70%;
+    margin: auto;
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 3em;
+        color: white;
+        background-color: #142238;
+        border-radius: 10px;
+        opacity: 70%;
+        font-family: 'Indie Flower', cursive;
+       
+    }
+
+    img {
+        width: 13em;
+        height: 13em;
+        margin-bottom: 2em;
+    }
+}
+
+.bottom-nav {
+    background-color: #142238;
+    opacity: 75%;
+    border-radius: 10px;
+    border: solid black 1px;
+   
+    .nav-bottom-container {
+        @media @mobile {
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            margin-top: .5em;
+        }
+        
+    }
+}

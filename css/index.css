@@ -1,0 +1,332 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Indie Flower', cursive;
+  color: white;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h3 {
+  font-size: 2.8rem;
+  font-weight: 900;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+  color: white;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: flex-end;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 2.5em;
+  font-family: 'Indie Flower', cursive;
+  padding-right: 1em;
+}
+@media (max-width: 500px) {
+  nav a {
+    padding: 0;
+  }
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+footer p {
+  padding-top: 1.5em;
+}
+body {
+  background-size: cover;
+  background-position: fixed;
+}
+header {
+  display: flex;
+  justify-content: stretch;
+  background-color: #142238;
+  opacity: 75%;
+  border-radius: 10px;
+  border: solid black 1px;
+  flex-direction: column;
+}
+header h1 {
+  margin-left: 4.4em;
+  margin-bottom: 0.2em;
+  font-weight: 900;
+}
+header h2 {
+  margin-left: 2em;
+}
+@media (max-width: 500px) {
+  header .nav-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+header .nav-container a {
+  margin: 0.2em 0;
+}
+.vision {
+  display: flex;
+  text-align: center;
+  background-color: #1A5763;
+  opacity: 75%;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+.vision h2 {
+  margin-top: 0.5em;
+}
+.team {
+  display: flex;
+  text-align: center;
+}
+.team h2 {
+  background-color: #1A5763;
+  opacity: 75%;
+  border-radius: 10px;
+  width: 25%;
+  margin: auto;
+}
+.team .team-par p {
+  background-color: #1A5763;
+}
+.team .trey {
+  margin: 1em 0;
+  border-bottom: 1px dashed #1A5763;
+}
+.team .trey p {
+  width: 15%;
+  margin-top: 0.5em;
+}
+.team .mason {
+  margin: 1em 0;
+  border-bottom: 1px dashed #1A5763;
+}
+.team .mason p {
+  width: 15%;
+  margin-top: 0.5em;
+}
+.team .robert {
+  margin: 1em 0;
+  border-bottom: 1px dashed #1A5763;
+}
+.team .robert p {
+  width: 15%;
+  margin-top: 0.5em;
+}
+.team .ahmad {
+  margin: 1em 0;
+  border-bottom: 1px dashed #1A5763;
+}
+.team .ahmad p {
+  width: 15%;
+  margin-top: 0.5em;
+}
+.team .xaver {
+  margin: 1em 0;
+  border-bottom: 1px dashed #1A5763;
+}
+.team .xaver p {
+  width: 15%;
+  margin-top: 0.5em;
+}
+.team p {
+  background-color: #142238;
+  opacity: 75%;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+}
+.team a {
+  text-decoration: none;
+  font-size: 3em;
+  color: white;
+  background-color: #142238;
+  border-radius: 10px;
+  opacity: 70%;
+  font-family: 'Indie Flower', cursive;
+}
+.team img {
+  width: 13em;
+  height: 13em;
+  margin-bottom: 2em;
+}
+.bottom-nav {
+  background-color: #142238;
+  opacity: 75%;
+  border-radius: 10px;
+  border: solid black 1px;
+}
+@media (max-width: 500px) {
+  .bottom-nav .nav-bottom-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0.5em;
+  }
+}
