@@ -142,7 +142,7 @@ h3,
 h4,
 h5 {
   font-family: 'Indie Flower', cursive;
-  color: #9962e0;
+  color: white;
 }
 h1 {
   font-size: 4rem;
@@ -163,7 +163,7 @@ p {
   line-height: 1.5;
   font-size: 1.6rem;
   padding-bottom: 10px;
-  color: #48c0b0;
+  color: white;
 }
 img {
   max-width: 100%;
@@ -180,36 +180,153 @@ nav {
 }
 nav a {
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 2.5em;
   font-family: 'Indie Flower', cursive;
   padding-right: 1em;
+}
+@media (max-width: 500px) {
+  nav a {
+    padding: 0;
+  }
 }
 footer {
   display: flex;
   justify-content: center;
 }
+footer p {
+  padding-top: 1.5em;
+}
 body {
   background-size: cover;
+  background-position: fixed;
 }
 header {
   display: flex;
   justify-content: stretch;
-  background-color: #90d0d4;
+  background-color: #142238;
+  opacity: 75%;
+  border-radius: 10px;
+  border: solid black 1px;
   flex-direction: column;
 }
 header h1 {
   margin-left: 4.4em;
+  margin-bottom: 0.2em;
+  font-weight: 900;
 }
 header h2 {
   margin-left: 2em;
 }
+@media (max-width: 500px) {
+  header .nav-container {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+header .nav-container a {
+  margin: 0.2em 0;
+}
 .vision {
   display: flex;
   text-align: center;
+  background-color: #1A5763;
+  opacity: 75%;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+}
+.vision h2 {
+  margin-top: 0.5em;
 }
 .team {
   display: flex;
-  border: magenta 1px solid;
   text-align: center;
+}
+.team h2 {
+  background-color: #1A5763;
+  opacity: 75%;
+  border-radius: 10px;
+  width: 25%;
+  margin: auto;
+}
+.team .team-par p {
+  background-color: #1A5763;
+}
+.team .trey {
+  margin: 1em 0;
+  border-bottom: 1px dashed #1A5763;
+}
+.team .trey p {
+  width: 15%;
+  margin-top: 0.5em;
+}
+.team .mason {
+  margin: 1em 0;
+  border-bottom: 1px dashed #1A5763;
+}
+.team .mason p {
+  width: 15%;
+  margin-top: 0.5em;
+}
+.team .robert {
+  margin: 1em 0;
+  border-bottom: 1px dashed #1A5763;
+}
+.team .robert p {
+  width: 15%;
+  margin-top: 0.5em;
+}
+.team .ahmad {
+  margin: 1em 0;
+  border-bottom: 1px dashed #1A5763;
+}
+.team .ahmad p {
+  width: 15%;
+  margin-top: 0.5em;
+}
+.team .xaver {
+  margin: 1em 0;
+  border-bottom: 1px dashed #1A5763;
+}
+.team .xaver p {
+  width: 15%;
+  margin-top: 0.5em;
+}
+.team p {
+  background-color: #142238;
+  opacity: 75%;
+  border-radius: 10px;
+  width: 70%;
+  margin: auto;
+  font-family: 'Indie Flower', cursive;
+  font-size: 2em;
+}
+.team a {
+  text-decoration: none;
+  font-size: 3em;
+  color: white;
+  background-color: #142238;
+  border-radius: 10px;
+  opacity: 70%;
+  font-family: 'Indie Flower', cursive;
+}
+.team img {
+  width: 13em;
+  height: 13em;
+  margin-bottom: 2em;
+}
+.bottom-nav {
+  background-color: #142238;
+  opacity: 75%;
+  border-radius: 10px;
+  border: solid black 1px;
+}
+@media (max-width: 500px) {
+  .bottom-nav .nav-bottom-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0.5em;
+  }
 }
